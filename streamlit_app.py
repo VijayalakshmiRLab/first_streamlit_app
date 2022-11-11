@@ -30,3 +30,4 @@ streamlit.text(fruityvice_response.json()) #just writes data to the screen
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # Output it in the screen as a Table
 streamlit.dataframe(fruityvice_normalized)
+import snowflake.connector
